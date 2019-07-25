@@ -6,7 +6,7 @@ package simplefactory;
  */
 public interface StarPerson {
 
-      public void  userName();
+    public void userName();
 
 
 }

@@ -6,7 +6,7 @@ package simplefactory;
  */
 public enum StarEmue {
 
-    James("simplefactory.James"), Jodren("simplefactory.Jodren");
+    James("simplefactory.James"), Jodren("simplefactory.Jodren"),NoStar("simplefactory.NoStar");
     private String s;
 
     private StarEmue(String s) {
