@@ -8,7 +8,8 @@ import java.lang.reflect.InvocationTargetException;
  */
 public class RealObjectImpl implements  RealObject {
     public Object select(String name) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InstantiationException, InvocationTargetException {
-        String a="simplefactory."+name;
+
+         String a= StarEmue.valueOf(name).getS();
          Class star=Class.forName(a);
          return  star.newInstance();
     }

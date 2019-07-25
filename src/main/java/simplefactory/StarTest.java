@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationTargetException;
 public class StarTest {
 
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {
-         StarPerson starPerson=StartFactory.getStart("James");
+         StarPerson starPerson=StartFactory.getStart("Jodren");
          starPerson.userName();
     }
 }
